@@ -6,7 +6,7 @@ I used the dataset from this repo [MCRec](https://github.com/librahu/MCRec/tree/
 
 <br>
 
-## 1. BPR optimization
+## 1. BPR-OPT
 BPR-OPT is an optimization technique for personalized ranking.
 
 ![image](https://user-images.githubusercontent.com/59256704/220161215-5f9b0c6b-4845-4c8e-be8a-11d6b404571b.png)
