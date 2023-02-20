@@ -1,7 +1,7 @@
 # BPR
 PyTorch Implementation of ["BPR: Bayesian Personalized Ranking from Implicit Feedback"](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf)
 
-I used the dataset from this repo [MCRec](https://github.com/librahu/MCRec/tree/master/data]) and [ml-100k](https://grouplens.org/datasets/movielens/).
+I used the dataset from this repo [MCRec](https://github.com/librahu/MCRec/tree/master/data) and [ml-100k](https://grouplens.org/datasets/movielens/).
 
 
 <br>
