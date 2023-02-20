@@ -8,9 +8,9 @@ class BPR(nn.Module):
         self.user_embedding = nn.Embedding(n_user, n_factor)
         self.item_embedding = nn.Embedding(n_item, n_factor)
 
-        self.weight_init()
+        self.__weight_init()
 
-    def weight_init(self):
+    def __weight_init(self):
         nn.init.xavier_normal_(self.user_embedding.weight)
         nn.init.xavier_normal_(self.item_embedding.weight)
 
