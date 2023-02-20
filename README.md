@@ -1,6 +1,8 @@
 # BPR
 PyTorch Implementation of ["BPR: Bayesian Personalized Ranking from Implicit Feedback"](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf)
 
+<br>
+
 ## 1. BPR optimization
 BPR-OPT is an optimization technique for personalized ranking.
 
@@ -11,6 +13,8 @@ def bpr_loss(pos_scores, neg_scores):
     loss = -(pos_scores - neg_scores).sigmoid().log().sum()
     return loss
 ```
+
+<br>
 
 ## 2. Requirements
 
@@ -24,6 +28,8 @@ torch==1.13.1
 torcheval==0.0.6
 tqdm==4.64.1
 ```
+
+<br>
 
 ## 3. Example run
 - set config.json
