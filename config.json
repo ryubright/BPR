@@ -5,7 +5,7 @@
   "n_factor": 32,
   "learning_rate": 0.001,
   "weight_decay": 0,
-  "epochs": 50,
+  "epochs": 100,
   "top_k": 10,
   "test_file_path": "./data/ml-100k.test.negative",
   "test_neg_n": 100,
