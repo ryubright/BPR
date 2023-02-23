@@ -9,7 +9,6 @@ from data import load_data, BPRDataset
 from util import set_seed, read_json
 from torch.utils.data import DataLoader
 from torch.optim import SGD
-from metric import ndcg
 from loss import bpr_loss
 from torcheval.metrics.functional import hit_rate
 
